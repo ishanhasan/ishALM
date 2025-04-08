@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Notebook",
+    "displayName": "healthcare1_msft_omop_drug_exposure_insights_sample"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "50a93bd2-ff85-9f5a-4691-80cbf78b9154"
+  }
+}

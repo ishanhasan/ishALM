@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Environment",
+    "displayName": "healthcare1_environment",
+    "description": "HDS solution environment"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "37b9a6a8-93ee-84e0-4b56-c954f9104a34"
+  }
+}
