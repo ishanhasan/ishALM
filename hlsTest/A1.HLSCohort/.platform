@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "HLSCohort",
+    "displayName": "A1"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "5dbd26ba-f470-ae27-48b5-d91f6ad8c17f"
+  }
+}

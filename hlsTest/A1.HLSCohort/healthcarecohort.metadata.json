@@ -1,0 +1,41 @@
+{
+  "dependencies": [
+    {
+      "itemType": "dataset",
+      "itemObjectId": "ab8d3a2e-ec54-4c2d-952d-9fb77e85febd",
+      "folderObjectId": "2e62bf1d-c382-4815-945b-0ab26e90e681"
+    },
+    {
+      "itemType": "HealthDataManager",
+      "itemObjectId": "60e8af89-d0e8-802c-4196-b5493c733841",
+      "folderObjectId": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "itemType": "Lakehouse",
+      "itemObjectId": "7dde5c2a-be6d-a7c0-4333-2d9850a654b0",
+      "folderObjectId": "00000000-0000-0000-0000-000000000000"
+    }
+  ],
+  "queryRequest": {
+    "schemaName": "OMOP",
+    "schemaVersion": "0.0.0",
+    "entryPoint": "Person",
+    "criteriaExpressionNodes": [
+      {
+        "nodeType": "And",
+        "children": [
+          {
+            "nodeType": "Leaf",
+            "criteriaCondition": {
+              "propertyPath": "Person.YearOfBirth",
+              "rawValueSchemaDataType": "Integer",
+              "rawValue": "2",
+              "criteriaOperator": "Equal",
+              "isValueList": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
